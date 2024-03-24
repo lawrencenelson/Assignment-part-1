@@ -7,12 +7,60 @@
     background-color: rgb(222, 240, 245);
     margin: 20px;
     width: 33%;
-    border-color: black;
+    
     
 }
 
+body{
+    background-color: rgb(195, 228, 255);
+    
+}
+
+#user{
+    color: rgb(15, 15, 17);
+    text-align: left;
+    font-family: Arial Black, Gadget, sans-serif;
+    position: relative;
+    top: -195px;
+    
+}
+
+button#logout {
+    position: relative;
+    top: -25px;
+    left: 15px;
+}
+
+nav{
+    position: relative;
+    left: 1300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+search{
+    color: rgb(15, 15, 17);
+    text-align: right;
+    font-family: Arial Black, Gadget, sans-serif;
+    position: relative;
+    top: -130px;
+    right: 10px;
+
+}
+
+#task-manager{
+    position: relative;
+    top: -130px;
+}
+
+
+
+
 #widgets {
     padding: 10px;
+    position: relative;
+    top: -100px;
+
 }
 
 #widgets > div {
@@ -20,7 +68,13 @@
     width: 300px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid green;
+    border: 1px solid rgb(34, 47, 99);
+}
+
+p{
+    padding: 10px;
+    font-family:monospace;
+    font-size: large;
 }
 
 h2 {
@@ -29,14 +83,72 @@ h2 {
     padding: 10px;
     text-align: center;
     font-family: Arial Black, Gadget, sans-serif;
+    border: 2px solid black;
+}
+
+h3{
+    background-color: rgb(31, 108, 138);
+    color: rgb(232, 251, 255);
+    padding: 10px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+
 }
 
 div#this-week-widget {
-    background-color: brown;
+    background-color: rgb(173, 165, 255);
+}
+
+div#this-week-widget h3 {
+    background-color: rgb(105, 100, 158);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+}
+
+#task-stats-widget{
+    background-color: rgb(173, 165, 255);
+}
+
+#task-stats-widget h3{
+    background-color: rgb(105, 100, 158);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+
+}
+
+#weather-widget{
+    background-color: rgb(173, 165, 255);
+}
+
+#weather-widget h3{
+    background-color: rgb(105, 100, 158);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+
+}
+
+#task-timer-widget{
+    background-color: rgb(173, 165, 255);
+}
+
+#task-timer-widget h3{
+    background-color: rgb(105, 100, 158);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+
 }
 
 div.task-controls {
-    background-color: aquamarine;
+    background-color: rgb(195, 228, 255);
+    
 }
 
 
@@ -48,4 +160,6 @@ p#task-timer-units {
     clear: left;
     border-top: 1px solid black;
     border-color: black;
+    background-color: rgb(17, 65, 94);
+    color: rgb(255, 255, 255);
 }
